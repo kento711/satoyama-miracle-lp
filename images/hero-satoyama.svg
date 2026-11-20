@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-labelledby="t">
+  <title id="t">山と川、田んぼ、小さな家、太陽がある里山の風景</title>
+  <!-- 空と太陽 -->
+  <circle cx="440" cy="92" r="44" fill="#F9DF88"/>
+  <circle cx="440" cy="92" r="60" fill="none" stroke="#F9DF88" stroke-width="3" stroke-dasharray="4 12" stroke-linecap="round"/>
+  <!-- 雲 -->
+  <g fill="#FFFAF0" opacity=".9">
+    <ellipse cx="130" cy="78" rx="44" ry="15"/>
+    <ellipse cx="158" cy="68" rx="26" ry="16"/>
+  </g>
+  <!-- 遠い山 -->
+  <path d="M0 250 L95 140 L170 205 L265 105 L380 225 L455 165 L560 250 V300 H0Z" fill="#7FB89F"/>
+  <path d="M265 105 L292 136 L276 132 L264 145 L250 128 L238 135Z" fill="#FFFAF0" opacity=".85"/>
+  <!-- 近い山・森 -->
+  <path d="M0 290 C80 225 150 230 230 270 C300 235 400 220 560 285 V340 H0Z" fill="#205745"/>
+  <g fill="#2E6B55">
+    <path d="M60 262 l14 -34 14 34z"/><path d="M84 258 l12 -28 12 28z"/>
+    <path d="M410 250 l14 -34 14 34z"/><path d="M436 255 l12 -28 12 28z"/><path d="M460 262 l11 -26 11 26z"/>
+  </g>
+  <!-- 田んぼ -->
+  <path d="M0 330 C140 300 400 300 560 330 V440 H0Z" fill="#E0EDCF"/>
+  <g stroke="#B9D39A" stroke-width="2" fill="none">
+    <path d="M0 360 C150 340 410 340 560 360"/>
+    <path d="M0 395 C150 375 410 375 560 395"/>
+    <path d="M140 322 L100 440"/><path d="M300 318 L310 440"/><path d="M440 322 L500 440"/>
+  </g>
+  <g fill="#8DBB6B">
+    <path d="M40 380 v-10 M48 382 v-10"/>
+  </g>
+  <g stroke="#7FAE5E" stroke-width="2" stroke-linecap="round">
+    <path d="M170 370 v-9"/><path d="M178 372 v-10"/><path d="M186 370 v-9"/>
+    <path d="M360 372 v-9"/><path d="M368 374 v-10"/><path d="M376 372 v-9"/>
+    <path d="M60 410 v-9"/><path d="M68 412 v-10"/><path d="M76 410 v-9"/>
+  </g>
+  <!-- 川 -->
+  <path d="M250 300 C210 330 300 350 240 385 C200 410 230 430 210 440 H290 C300 425 280 410 315 390 C370 355 280 335 300 300Z" fill="#A9E1E9" stroke="#FFFAF0" stroke-width="3"/>
+  <path d="M262 340 q10 -4 18 0 M250 395 q10 -4 18 0" stroke="#FFFAF0" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- 小さな家 -->
+  <g transform="translate(395 296)">
+    <rect x="0" y="22" width="62" height="40" rx="3" fill="#FFFAF0"/>
+    <path d="M-8 26 L31 -4 L70 26Z" fill="#123254"/>
+    <rect x="24" y="38" width="14" height="24" rx="2" fill="#F9DF88"/>
+    <rect x="7" y="32" width="11" height="10" rx="1.5" fill="#A9E1E9"/>
+    <rect x="44" y="32" width="11" height="10" rx="1.5" fill="#A9E1E9"/>
+  </g>
+  <!-- 葉っぱ -->
+  <g transform="translate(70 300) rotate(-20)">
+    <path d="M0 30 C0 10 12 0 34 0 C32 20 20 32 0 30Z" fill="#F9DF88"/>
+    <path d="M2 28 C10 20 18 12 28 5" stroke="#205745" stroke-width="1.6" fill="none"/>
+  </g>
+  <g transform="translate(150 410) rotate(25)">
+    <path d="M0 24 C0 8 10 0 28 0 C26 16 16 26 0 24Z" fill="#205745"/>
+  </g>
+</svg>
